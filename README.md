@@ -35,13 +35,13 @@ class _MyHomePageState extends StreamCameraState<MyHomePage> {
   // this is called whenever the camera controller is initialized for the first time
   @override
   void onCameraControllerInitialized() {
-    print('camera controller initialized');
+    debugPrint('camera controller initialized');
   }
 
   // this is called everytime the camera sends an image
   @override
   void onCameraImageAvailable(CameraImage cameraImage) {
-    print('image available');
+    debugPrint('image available');
   }
 }
 ```

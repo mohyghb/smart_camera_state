@@ -47,11 +47,11 @@ class _MyHomePageState extends StreamCameraState<MyHomePage> {
 
   @override
   void onCameraControllerInitialized() {
-    print('camera controller initialized');
+    debugPrint('camera controller initialized');
   }
 
   @override
   void onCameraImageAvailable(CameraImage cameraImage) {
-    print('image available');
+    debugPrint('image available');
   }
 }
